@@ -1,0 +1,39 @@
+body
+{
+background-color: rgba(0,0,255,0.2);
+	color: rgb(87,89,93);
+		font-family: Rockwell, sans-serif;
+	font-size: 20px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	text-align: justify;
+	text-decoration: none;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h1{color: black;
+font-family: Bernard MT Condensed, sans-serif;}
+
+h3{color: black;
+font-family: castellar, sans-serif;}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+@media (max-width: 760px){
+.container { width: 600px; }
+}
+
+@media (max-width: 500px){
+.container { width: 400px; }
+}
